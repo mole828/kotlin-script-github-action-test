@@ -12,6 +12,7 @@ import kotlin.time.ExperimentalTime
 import kotlin.time.measureTime
 import fuel.Fuel
 import fuel.get
+import kotlin.system.exitProcess
 
 val a = 1
 
@@ -40,3 +41,5 @@ runBlocking {
     val resp = Fuel.get("https://www.moles.top/ping")
     println(resp.statusCode)
 }
+
+exitProcess(0)
