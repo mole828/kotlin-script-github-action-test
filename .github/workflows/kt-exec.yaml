@@ -14,4 +14,4 @@ jobs:
       - name: Run Kotlin Script
         uses: sureshg/kts-exec@v2.7
         with:
-          script: "main.kts"
+          script: "main.main.kts"
